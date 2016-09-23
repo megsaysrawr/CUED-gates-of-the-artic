@@ -1,2 +1,2 @@
 # CUED-gates-of-the-artic
-Olin CUED Gates of the Artic
+Olin CUED Gates of the Arctic
