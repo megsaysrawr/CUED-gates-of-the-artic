@@ -179,13 +179,10 @@ textarea {
 optgroup {
   font-weight: bold;
 }
-table {
+table, td, th {
   border-spacing: 0;
+  border: 1px solid black;
   border-collapse: collapse;
-}
-td,
-th {
-  padding: 0;
 }
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
