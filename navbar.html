@@ -15,7 +15,7 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -26,12 +26,10 @@
 
     <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+  <script src="js/site.js"></script>
   <script src="js/jquery-3.1.1.min.js"></script>
-  <script>
-    $(document).ready(function() {
-    $('.navigation').append("navbar.html");
-    }); 
-  </script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -40,20 +38,35 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
     <div class="navbar-spacer"></div>
-
-    <div class="navigation">Put nav here:  </div>
-
-    <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Gates of the Arctic is a team of five students from Olin College of Engineering.</h4>
-        <a class="button button-primary" href="about.html">Learn More!</a>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a class="navbar-link" href="skeleton_index.html">Index</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="about.html">About</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="inspire.html">Inspire</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="project.html">Project</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="consent.html">Consent Narrative</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="design.html">Design Development</a>
+          </li>
+          <li class="navbar-item">
+            <a class="navbar-link" href="needs.html">Needs</a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
+    </nav>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
