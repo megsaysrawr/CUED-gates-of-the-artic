@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Design Refinement</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+    <link rel="stylesheet" href="vendor/device-mockups/device-mockups.min.css">
+
+    <!-- Theme CSS -->
+    <link href="css/new-age.min.css" rel="stylesheet">
+
+    <!-- Our CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Gates of the Arctic</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <!-- <a class="page-scroll" href="#download">Download</a> -->
+                        <a href="inspire.html">Inspire</a>
+                    </li>
+                    <li>
+                        <a href="design.html">Project</a>
+                    </li>
+                    <li>
+                        <!-- rel "nofollow" prevents search engines from indexing this. We don't want contact info easily visible to spammers -->
+                        <!-- <a href="files/ConsentNarrative.pdf" rel="nofollow">Consent Narrative</a> -->
+                        <a href="consent.html">Consent Narrative</a>
+                    </li>
+                    <li>
+                        <!-- rel "nofollow" prevents search engines from indexing this. We don't want contact info easily visible to spammers -->
+                        <!-- <a href="files/ConsentNarrative.pdf" rel="nofollow">Consent Narrative</a> -->
+                        <a href="design_development.html">Design Development</a>
+                    </li>
+                    <li>
+                        <!-- rel "nofollow" prevents search engines from indexing this. We don't want contact info easily visible to spammers -->
+                        <!-- <a href="files/ConsentNarrative.pdf" rel="nofollow">Consent Narrative</a> -->
+                        <a href="design_refinement.html">Design Refinement</a>
+                    </li>
+                    <li>
+                        <a href="needs.html">Needs</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/new-age.min.js"></script>
+
+    <h1 style='margin-top:80px;'>Design Refinement</h1>
+
+    <h4>The feedback from our heuristic evaluation can be found <a href='https://docs.google.com/document/d/155F_hvAJ7VlLRkICsYDabDZ3MDiOjvz7Sl6JNNi0OZM/edit?usp=sharing'>here</a>.</h4>
+
+    <h2>What is your design? How does it work?</h2>
+
+    <p>Our design is a nonverbal, spatial, and conversational communication app; our implementation of it consists of two parts: a mockup interface, and a partial implementation of the main chat screen. The mockup interface, containing the settings and language which we would intend to ship, can be found on our InVision page; the chat prototype is hosted on our team page at the HFID website.</p>
+    <p>Our design is an application in which users can communicate through text, emojis, or drawings. Users can place these messages anywhere on the screen. Users can choose the color of their messages for fun or in order to communicate which person created that message. The design also incorporates a few other affordances. One example of this is our quick-chat icons. These are a set of icons that a user can use to quickly place a set of predetermined messages on the screen. For example, a user can press a checkmark icon, and then tap anywhere on the screen to place a checkmark message. The prototype of our chat screen is shown below.</p>
+
+    <img src='images/design_refinement/phone.png' style='height:400px;'>
+
+    <p>The app incorporates a home screen which informs users about the app and why it needs to be used. In addition, it also provides a settings page where users can configure the app. Our prototypes of these two pages are shown below.</p>
+
+    <img src='images/design_refinement/home.png' style='height:400px;'>
+    <img src='images/design_refinement/settings.png' style='height:400px;'>
+
+    <h2>What changed, and why did you change it?</h2>
+
+    <p>In our decision of the methods we would use to bring our prototype online, we considered several tradeoffs. Our home screen and settings screen very much lend themselves to “traditional” digital prototyping methods like Sketch or InVision. However, our chat screen presents some challenges if implemented using these prototyping tools. One of the important aspects of our spatial design is that users can place their content wherever they would like. Traditional prototyping tools only allow you to press or navigate in very specific ways, which removes the core experience of the spatial chat. Implementing the prototype using a production-level technology would allow you to implement this customizability. The prototype in particular lacks this customizability, due to technical and time limitations, but a “live” version would ideally have greater variety.</p>
+    <p>Another tradeoff we considered when prototyping was the ease of producing the prototype. Tools like Sketch and InVision allow you to bring prototypes online rather quickly, and are a good way to rapidly obtain feedback about a given design. On the other hand, production-level technologies take more time to implement.</p>
+    <p>We considered these tradeoffs and decided that different prototyping tools were appropriate for different portions of our app. We decided to prototype the home screen and settings screen using Sketch and InVision in order to take advantage of its ease of prototyping. We decided to prototype the chat experience in Phonegap in order to provide the customizability of the chat screen. We also worried that we wouldn’t be able to implement the whole chat screen in the Final Refinement phase, so beginning with production-level technology in this phase allows us to make necessary progress on our final product.</p>
+    <p>Very little changed between the last paper prototype and the initial digital prototype of our design. We did away with the tutorial, in order to reduce start-up time and in acknowledgement of feedback from our user-testing that suggested the tutorial would not be used. Due to the removal of the tutorial, we have placed more emphasis on using familiar and intuitive icons and interactions. In the initial screens, we added a dialogue that asks the secondary user to hand the phone back to its owner in the event that they do not want to hold a conversation. This was in response to feedback that it wasn’t clear when the interaction was over.</p>
+    <p>We initially had a homepage, where the primary user could interact with the settings screens, and a second page for initiating a conversation with a secondary user. We decided to remove the first home-screen and use the conversation initiation screen instead, but later got insightful feedback that suggested we should put it back. In our heuristic evaluation, our evaluators noted that the settings button was available (erroneously) to the secondary user because of the lack of a home-screen for the primary user.  For this reason, we will bring back the primary user home-screen.</p>
+    <p>Other than the removal of the tutorial, our product wasn’t down-scoped during this phase. Our prototype is missing many features that we desire, especially the spatial features such as panning and zooming. These features are missing solely due to time constraints on implementation. We plan on implementing these features in the Final Refinement phase.</p>
+    <p>After getting feedback from our heuristic evaluations, we decided on a number of changes to make on both our InVision and PhoneGap prototype.</p>
+    <p>On the InVision prototype, we are planning on removing the settings gear from the intermediate settings screens that also have a back to settings arrow because our users commented that having two buttons that perform the same function was a redundant interaction. We also received feedback that users were unsure whether or not their color selection had been saved, so we are planning on adding a ‘done’ button to the bottom of the color selection screen to confirm user changes. There was some confusion about where the home button took users, specifically a pain point surrounding the fact that the button appeared to leave the users on the same page with the heading “Let’s chat nonverbally.” To remedy this, we are planning on adding back the home screen that we previously removed (as described earlier in this write up) so that the “home” experience is separate from the other screens.</p>
+    <p>We also received heuristic evaluation feedback for the chat screen. One suggestion that a user had was that the “Y” and “N” icons make text that gets written on the canvas “Yes” and “No”. Users intuitively understood that “Y” and “N” mean “Yes” and “No”, and they would like the app to explicitly reflect that meaning. </p>
+    <p>Another user suggested that when you click away from a textbox, the text within the textbox should be submitted. This would add another method of drawing the text onto the screen. This also would return the user to the mode of selecting the location of their input. This makes it easy for users to end their text input.</p>
+    <p>Users suggested having the placement mode revert to the last chosen mode instead of always going back to textbox. This means that it would remain in emoji mode after entering an emoji, or in quick chat mode after entering a quick chat icon. This would be beneficial for users if they respond in the same mode as the other person often. We’ve already seen that users tend to respond in a symmetric manner (i.e. verbal to verbal, or written to written). This means that leaving the app in the same mode might save users time.</p>
+    <p>The final suggestion was to make the red and blue color selection buttons look distinct so you can tell which is selected. We will investigate different methods to making one of the buttons clearly indicate that it is selected.</p>
+
+
+    <h2>What key insights did you gain during this phase?</h2>
+
+    <p>Additionally--although we ourselves are familiar with the rationale behind a nonverbal communication app, and although nonverbal users also recognize this, many secondary users do not; a “Why this app/why I’m nonverbal” explanation either in the application’s introduction or in the preamble to the testing script could prove valuable. It would also increase the startup time for the app, though -- additional examination is worthwhile.</p>
+    <p>Another insight that we gained is that adding more features comes at a price. Initially, our chat screen implementation only consisted of one possible mode: text box mode. This made things very easy for users. Anywhere that they tapped on the screen would create a text box in that location. As we added more modes, we realized that it added more and more overhead and management by the user about which mode they were in. As such, our insight is that each additional feature should be carefully considered and added only if its added value is greater than the increased cognitive load on our users.</p>
+
+    <h2>What questions do you have now about your project? What shortcomings are you aware of?</h2>
+
+    <p>We would like to investigate the optimal arrangement of elements on the chat screen, so that the interaction is comfortable on a small mobile screen. Considerations include how our view should adjust when the keyboard is open and closed, since it takes up a significant portion of the screen. This is our main concern, that the mobile screen will cause the interaction to feel cramped. Our hope is to implement zoom and pan so that the canvas will not be limited by the screen size. With those spatial elements implemented, the problems with screen size should be mitigated.</p>
+    <p>Another question about our design relates to how comfortable people are with having others handle their phone and how comfortable they are handling another’s phone. For one, the phone’s owner might be concerned that another person may damage their phone. They also could be concerned that an incoming notification or data may be shown to the other user that the phone’s owner wouldn’t want them to see. As the recipient of the phone, you may also be worried about these issues. It has been very hard to find answers to this question with a paper prototype, but now that we have a digital prototype, we can test scenarios in which users actually hand off their phones.</p>
+
+    <h2>What are your future plans?</h2>
+
+    <p>First, we plan on fixing usability problems that we learned about through the heuristic evaluation assignment. Next, we plan to implement the future features, such as panning, zooming, emoji input, and colored borders. These are all features that will add to the user’s experience, and we feel that they are necessary to be included in the final product. Then, we will incorporate settings, customization, and the home screen from the InVision prototype into our final product.</p>
+    <p>Along the way, we will be testing our app for usability and validating our design decisions with users. We feel that this phase helped us learn about usability problems and about initially prototyping our solution, and we are ready to move forward with the Final Refinement phase.</p>
+
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2016 Start Bootstrap. All Rights Reserved.</p>
+            <ul class="list-inline">
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>
