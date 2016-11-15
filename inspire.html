@@ -27,6 +27,11 @@
     <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="js/jquery-3.1.1.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.navigation').load("navbar.html");
+    });
+  </script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,6 +42,9 @@
 
 <body>
     <!-- Page Content -->
+        <div class="navbar-spacer"></div>
+
+        <div class="navigation"></div>
     <div class="container">
 
                 <h1>Inspirational Designs</h1>

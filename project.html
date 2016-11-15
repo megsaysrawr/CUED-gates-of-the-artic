@@ -1,115 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Project Brief</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Project Brief</title>
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
 
-    <!-- Our CSS -->
-    <link href="css/main.css" rel="stylesheet">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
 
-    <!-- Custom CSS -->
-    <style>
-    body {
-        padding-top: 70px;
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    #main img {
-        height:300px;
-    }
-    </style>
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.navigation').load("navbar.html");
+    });
+  </script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
-
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Gates of the Arctic</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="inspire.html">Inspire</a>
-                    </li>
-                    <li>
-                        <a href="design.html">Project</a>
-                    </li>
-                    <li>
-                        <a href="consent.html">Consent Narrative</a>
-                    </li>
-                    <li>
-                        <a href="needs.html">Needs</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="navbar-spacer"></div>
 
-    <!-- Page Content -->
-    <div class="container">
+  <div class="navigation"></div>
+  <div class="container">
+    <div class="row">
+      <div id="main" class="col-lg-12">
+          <h1>Project Brief</h1>
 
-        <div class="row">
-            <div id="main" class="col-lg-12">
-                <h1>Project Brief</h1>
+          <p>View our project brief as a PDF <a href="./files/ProjectBrief.pdf">here</a></p>
+          <h3>What is the problem in brief?</h3>
+          <p>Nonverbal communication (communication without spoken word, may use text, images, body language, etc) is frequently useful or necessary (be it for anxiety attacks, audience members, those who cannot, or do not prefer to, communicate with spoken word, etc). However, it often lacks a degree of specificity or finesse, or isn’t well-understood. There looks to be room for a frictionless way to convey information in a conversational manner, non-verbally.</p>
 
-                <h5>View our project brief as a PDF <a href="./files/ProjectBrief.pdf">here</a>.</h5>
+          <h3>How will your project change the status quo? For whom?</h3>
+          <p>Our product would improve the ability and ease of communication for people who are nonverbal. These users can be people who are either permanently or temporarily non-verbal (i.e. having a panic attack vs. deaf or hard of hearing) as well as those who prefer to communicate nonverbally.</p>
+          <p>This will allow people who are nonverbal connect and interact with people who communicate verbally in an easier and more positive manner. In addition, our product would effectively inform people about the reasons and nuances of being non-verbal and allow the uninformed people positively interact with people who are nonverbal.</p>
 
-                <h3>What is the problem in brief?</h3>
-                <p>Nonverbal communication (communication without spoken word, may use text, images, body language, etc) is frequently useful or necessary (be it for anxiety attacks, audience members, those who cannot, or do not prefer to, communicate with spoken word, etc). However, it often lacks a degree of specificity or finesse, or isn’t well-understood. There looks to be room for a frictionless way to convey information in a conversational manner, non-verbally.</p>
+          <h3>What is (at least) one naïve design idea (rough sketch)? How does this idea address what you see as the core problem?</h3>
+          <p>One initial design idea we have is to make an Android app. It could also take on the form of a web-app and/or iOS app. We are also considering some universal solutions such as Polymer which automatically allows for cross platform existence. All of these implementations will allow fast and easy access to this tool when under the specified circumstances above which is vital for the success of an frictionless interface.</p>
+          <p>A rough sketch of some screens of our app can be seen below.</p>
+          <img src="./images/brief/design.jpg" width="50%"/>
+          <p>The app enables the user to inform another of their circumstances, in order to allow the introduction to the conversation to begin easily. The app would probably allow users to pass the phone back and forth. In this naive design idea, customization is heavily emphasized. This method of communication is an integral part of a nonverbal person’s life, so it might be important for them to be able to express themselves through their method of communication.</p>
 
-                <h3>How will your project change the status quo? For whom?</h3>
-                <p>Our product would improve the ability and ease of communication for people who are nonverbal. These users can be people who are either permanently or temporarily non-verbal (i.e. having a panic attack vs. deaf or hard of hearing) as well as those who prefer to communicate nonverbally.</p>
-                <p>This will allow people who are nonverbal connect and interact with people who communicate verbally in an easier and more positive manner. In addition, our product would effectively inform people about the reasons and nuances of being non-verbal and allow the uninformed people positively interact with people who are nonverbal.</p>
+          <h3>What information do you need to collect? How will you collect it? How will you meet your target users, or who can serve as effective proxies for them?</h3>
+          <p>Target users are potentially a large group of people who use nonverbal communication for a variety of reasons. It is possible that we will want to narrow our focus to a particular use case, and also possible that we will be able to create a versatile interface that can be customized for those varied use cases.</p>
+          <p>We will be able to glean insights from the reviews left by some of the 10 thousand users of Emergency chat, which is a nonverbal (text-based) chat client created for use in critical situations such as anxiety attacks. We can learn a lot from this app and its users, and also direct our focus toward different use cases-- for example, nonverbal communication is not only for emergencies, and having an app called “emergency chat” sets a specific tone and character on the communication.</p>
+          <p>Additionally, we can look at how people communicate in this space without dedicated tools. For example - when people type out a text, show it to a friend next  to them, and then don’t send it, they’re improvising a similar system. In an above-mentioned example of people who become deaf later in life, our digital interface could be compared to an offline counterpart - for example, carrying around a notebook and pen.</p>
 
-                <h3>What is (at least) one naïve design idea (rough sketch)? How does this idea address what you see as the core problem?</h3>
-                <p>One initial design idea we have is to make an Android app. It could also take on the form of a web-app and/or iOS app. We are also considering some universal solutions such as Polymer which automatically allows for cross platform existence. All of these implementations will allow fast and easy access to this tool when under the specified circumstances above which is vital for the success of an frictionless interface.</p>
-                <p>A rough sketch of some screens of our app can be seen below.</p>
-                <img src="./images/brief/design.jpg" />
-                <p>The app enables the user to inform another of their circumstances, in order to allow the introduction to the conversation to begin easily. The app would probably allow users to pass the phone back and forth. In this naive design idea, customization is heavily emphasized. This method of communication is an integral part of a nonverbal person’s life, so it might be important for them to be able to express themselves through their method of communication.</p>
+          <h3>How will your team work together to accomplish these goals (as well as your individual learning goals)?</h3>
+          <p>We will all abide to the team contact and support each other to achieve their individual learning goals. We will individually take responsibility of assigned tasks and actively make an effort to maintain the team health.</p>
 
-                <h3>What information do you need to collect? How will you collect it? How will you meet your target users, or who can serve as effective proxies for them?</h3>
-                <p>Target users are potentially a large group of people who use nonverbal communication for a variety of reasons. It is possible that we will want to narrow our focus to a particular use case, and also possible that we will be able to create a versatile interface that can be customized for those varied use cases.</p>
-                <p>We will be able to glean insights from the reviews left by some of the 10 thousand users of Emergency chat, which is a nonverbal (text-based) chat client created for use in critical situations such as anxiety attacks. We can learn a lot from this app and its users, and also direct our focus toward different use cases-- for example, nonverbal communication is not only for emergencies, and having an app called “emergency chat” sets a specific tone and character on the communication.</p>
-                <p>Additionally, we can look at how people communicate in this space without dedicated tools. For example - when people type out a text, show it to a friend next  to them, and then don’t send it, they’re improvising a similar system. In an above-mentioned example of people who become deaf later in life, our digital interface could be compared to an offline counterpart - for example, carrying around a notebook and pen.</p>
-
-                <h3>How will your team work together to accomplish these goals (as well as your individual learning goals)?</h3>
-                <p>We will all abide to the team contact and support each other to achieve their individual learning goals. We will individually take responsibility of assigned tasks and actively make an effort to maintain the team health.</p>
-            </div>
-        </div>
-        <!-- /.row -->
-
+      </div>
     </div>
-    <!-- /.container -->
 
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-
 </html>
