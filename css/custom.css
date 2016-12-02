@@ -55,7 +55,7 @@
   white-space: pre;
   word-wrap: break-word }
 .example {
-  position: relative; 
+  position: relative;
   margin-top: 4rem; }
 .example-header {
   font-weight: 600;
@@ -81,8 +81,49 @@
   right: 5px;
   bottom: 5px;
   left: 5px; }
-.navbar {
+
+/* Navbar */
+.navbar + .docs-section {
+  border-top-width: 0; }
+.navbar,
+.navbar-spacer {
+  display: block;
+  width: 100%;
+  background: #fff;
+  z-index: 99;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee; }
+.navbar-spacer {
   display: none; }
+.navbar > .container {
+  width: 100%; }
+.navbar-list {
+  list-style: none;
+  margin-bottom: 0; }
+.navbar-item {
+  position: relative;
+  float: left;
+  margin-bottom: 0; }
+.navbar-link {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: .2rem;
+  margin-right: 35px;
+  text-decoration: none;
+  line-height: 6.5rem;
+  color: #222; }
+.navbar-link.active {
+  color: #33C3F0; }
+.has-docked-nav .navbar {
+  position: fixed;
+  top: 0;
+  left: 0; }
+.has-docked-nav .navbar-spacer {
+  display: block; }
+/* Re-overiding the width 100% declaration to match size of % based container */
+.has-docked-nav .navbar > .container {
+  width: 80%; }
 
 /* Larger than phone */
 @media (min-width: 550px) {
@@ -109,63 +150,8 @@
     max-height: none; }
 }
 
-<<<<<<< HEAD
 /* Larger than tablet */
 @media (min-width: 750px) {
-=======
->>>>>>> f7d6b34231815993abdb07a322cdcc0e50afdcaa
-  /* Navbar */
-  .navbar + .docs-section {
-    border-top-width: 0; }
-  .navbar,
-  .navbar-spacer {
-    display: block;
-    width: 100%;
-<<<<<<< HEAD
-    height: 6.5rem;
-=======
->>>>>>> f7d6b34231815993abdb07a322cdcc0e50afdcaa
-    background: #fff;
-    z-index: 99;
-    border-top: 1px solid #eee;
-    border-bottom: 1px solid #eee; }
-  .navbar-spacer {
-    display: none; }
-  .navbar > .container {
-    width: 100%; }
-  .navbar-list {
-    list-style: none;
-    margin-bottom: 0; }
-  .navbar-item {
-    position: relative;
-    float: left;
-    margin-bottom: 0; }
-  .navbar-link {
-    text-transform: uppercase;
-    font-size: 11px;
-    font-weight: 600;
-    letter-spacing: .2rem;
-    margin-right: 35px;
-    text-decoration: none;
-    line-height: 6.5rem;
-    color: #222; }
-  .navbar-link.active {
-    color: #33C3F0; }
-  .has-docked-nav .navbar {
-    position: fixed;
-    top: 0;
-    left: 0; }
-  .has-docked-nav .navbar-spacer {
-    display: block; }
-  /* Re-overiding the width 100% declaration to match size of % based container */
-  .has-docked-nav .navbar > .container {
-    width: 80%; }
-
-<<<<<<< HEAD
-=======
-/* Larger than tablet */
-@media (min-width: 750px) {
->>>>>>> f7d6b34231815993abdb07a322cdcc0e50afdcaa
   /* Popover */
   .popover.open {
     display: block;
@@ -183,11 +169,7 @@
     -webkit-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
        -moz-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
             filter: drop-shadow(0 0 6px rgba(0,0,0,.1)); }
-<<<<<<< HEAD
-  .popover-item:first-child .popover-link:after, 
-=======
   .popover-item:first-child .popover-link:after,
->>>>>>> f7d6b34231815993abdb07a322cdcc0e50afdcaa
   .popover-item:first-child .popover-link:before {
     bottom: 100%;
     left: 50%;
