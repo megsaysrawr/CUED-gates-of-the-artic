@@ -55,7 +55,7 @@
   white-space: pre;
   word-wrap: break-word }
 .example {
-  position: relative;
+  position: relative; 
   margin-top: 4rem; }
 .example-header {
   font-weight: 600;
@@ -109,6 +109,11 @@
     max-height: none; }
 }
 
+<<<<<<< HEAD
+/* Larger than tablet */
+@media (min-width: 750px) {
+=======
+>>>>>>> f7d6b34231815993abdb07a322cdcc0e50afdcaa
   /* Navbar */
   .navbar + .docs-section {
     border-top-width: 0; }
@@ -116,6 +121,10 @@
   .navbar-spacer {
     display: block;
     width: 100%;
+<<<<<<< HEAD
+    height: 6.5rem;
+=======
+>>>>>>> f7d6b34231815993abdb07a322cdcc0e50afdcaa
     background: #fff;
     z-index: 99;
     border-top: 1px solid #eee;
@@ -152,8 +161,11 @@
   .has-docked-nav .navbar > .container {
     width: 80%; }
 
+<<<<<<< HEAD
+=======
 /* Larger than tablet */
 @media (min-width: 750px) {
+>>>>>>> f7d6b34231815993abdb07a322cdcc0e50afdcaa
   /* Popover */
   .popover.open {
     display: block;
@@ -171,7 +183,11 @@
     -webkit-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
        -moz-filter: drop-shadow(0 0 6px rgba(0,0,0,.1));
             filter: drop-shadow(0 0 6px rgba(0,0,0,.1)); }
+<<<<<<< HEAD
+  .popover-item:first-child .popover-link:after, 
+=======
   .popover-item:first-child .popover-link:after,
+>>>>>>> f7d6b34231815993abdb07a322cdcc0e50afdcaa
   .popover-item:first-child .popover-link:before {
     bottom: 100%;
     left: 50%;
