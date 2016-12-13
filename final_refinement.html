@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>CUED Gates of the Artic</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/github-prettify-theme.css">
+
+    <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.navigation').load("navbar.html");
+    });
+  </script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="navbar-spacer"></div>
+
+  <div class="navigation"></div>
+  <div class="container">
+    <div class="row">
+      <div id="main" class="col-lg-12">
+        <h1>Final Refinement</h1>
+
+		<p>Our team set out to design an application that will assist in communication when one or more people are communicating nonverbally. People may need or prefer to communicate nonverbally for many reasons. For example, a person who is deaf or hard-of-hearing may need to communicate with somebody who normally communicates verbally and does not know sign language. People who communicate nonverbally have many challenges communicating with people who normally communicate verbally.</p>
+		<p>Our goal was to create an app that would improve the ability and ease of communication for people who are nonverbal. This will allow people who are nonverbal to connect and interact with people who communicate verbally in an easier and more positive manner. In addition, our product would effectively inform people about the reasons and nuances of being nonverbal and allow the uninformed people to positively interact with people who are nonverbal.</p>
+
+		<h4>User Needs and Design Requirements</h4>
+
+		<p>We identified several needs from our user interactions. These are:</p>
+
+		<ul>
+			<li>Users need to have symmetric conversations</li>
+			<li>Users need a communication tool with low startup time</li>
+			<li>Users need an easy and effective situation introduction to verbal user</li>
+			<li>Users need to not feel anxiety when beginning an interaction</li>
+			<li>Users need a communication tool that is casually rather than emergency</li>
+		</ul>
+
+
+		<p>For a more thorough explanation of these user needs and where they come from, <a href="design.html">see our Design Development write-up</a>.</p>
+		<p>The tools that already exist either requires a significant setup time or is designed for emergency use and not for having fun and casual conversations. The lack of such tools that would satisfy our users’ needs was what encouraged us to decide upon this application.</p>
+
+		<h4>What We Designed</h4>
+
+		<p>We designed a mobile app for nonverbal communication, through which a nonvocal, primary user can initiate and carry out a conversation with a typically-vocal, secondary user on one device, in-person. This app consists of a landing page with settings, an introduction for the secondary user, and chat page.</p>
+
+		<h5>Home Screen</h5>
+		<p>When the user opens the app, they are presented with a screen in which they can begin a conversation. This screen is meant for the app’s owner (the person who is nonverbal), and provides access to settings that shouldn’t ever been seen or accessible to the secondary user. The primary user can tap a create button in order to begin a conversation with another person.</p>
+
+		<h5>Introduction Page</h5>
+		<p>Upon creating a conversation, the user is brought to a screen that is meant to introduce the situation for the other person. This introductory screen provides some text that explains the situation, and offers and an accept button and a reject button for the other user. When designing this screen, we kept in mind that it was important for nonverbal users to introduce other verbal users to the situation easily. This screen is designed to inform the other user concisely, and allow them to feel comfortable using this application to communicate.</p>
+
+		<h5>Chat Screen</h5>
+		<p>When the secondary user accepts the invitation, the app transitions to our chat screen. The chat screen has a home button on the top left corner where it is commonly placed on mobile applications. This design decision was made to better speak the user’s language as well as providing an exit if the users were accidentally entered into a conversation.</p>
+		<p><b>Conversation modes</b></p>
+		<p>The buttons at the top are the modes and tools that the users can select to use during a conversation. The first one represents the textbox mode. Once a user selects the textbox mode, they can then select anywhere on the screen to place a textbox and type their message in once the mobile device’s built in keyboard pops up. The user can then click anywhere else on the screen to place the message down on the screen. The message will show up in the user’s assigned color in order for both participants to distinguish between the messages.</p>
+		<p>The second button represents the drawing mode. The drawing mode allow the users to doodle and sketch on the canvas with their assigned color. The mode expands the user interactions to not just using literature but visuals and graphics as well. This feature responds to the natural way humans interact with a pen and paper.</p>
+		<p>The remaining four buttons are all quick-chat icons that allow users to reply in a timely fashion with relative convenience. The “Y” button represents a “Yes”. The “N” button represents a “No”. The abbreviation of these two words were suggested by our users from intuition and also to keep the visual elements presented in a minimalist style. The “?” button represents a point of confusion. The “!” button represents a sense of excitement and attention. The selection of these four options was a result of user feedback and represents the four most frequently-used responses. Once a mode is selected, the chat remains in that mode until the next mode is selected.</p>
+		<p><b>User Switching</b></p>
+		<p>The two circles at the bottom are used to add distinguishing color to the inputs made by each user. The default choice of colors were made with colorblind users in mind. However, if desired, the colors can be customized in the settings before starting a new conversation. A prompt at the beginning of the conversation allows users to choose a color. The color of inputs remains the same until the user is finished with their messages and clicks on the other color to switch to the next user.</p>
+		<p><b>Spatial Interaction</b></p>
+		<p>Our chat screen is also spatial and supports panning. Once the users feel like the current canvas is almost filled up or just want to have a blank canvas to converse about a different topic, they can then drag on the screen to move the current content aside and create more empty space on the screen. The previous content can always be viewed by dragging on the screen in the opposite direction than initially used to create more space.</p>
+
+		<h4>Design Choices & Rationale</h4>
+
+		<h5>Tone & Information</h5>
+		<p>The “tone” and information provided by the app - in particular, the text and options on the landing page - were informed by our quick formal user study, <a href="usability_study.html">a writeup of which which you can find here</a>. From this study, we found that users did not have a clear preference between a “clinical” and a “conversational” approach. As such, we elected to restructure our home page to keep a casual tone (which users preferred), while also providing the context that the clinical screen gave--without the urgency in our “informative” text. Keeping the interface casual, without seeming too flippant, is likely a task of its own, and would merit further study; nonetheless, we feel comfortable in our synthesis that a blend of these several options is most likely to engage the secondary user.</p>
+
+		<h5>Spatial Chat</h5>
+		<p>One of the differentiating features of our app - the “spatial” nature of the chat screen - originated as a result of observing natural nonvocal communication. We observed conversations through paper-passing which tended to jump around pages and include icons, colors, and sketches. We decided to make our chat app have an element of spatial freedom so that users can use message location as a conversation prop to add more information and meaning to the messages that they send. Users have a near-infinite canvas upon which they can use text boxes, drawings, icons, etc.</p>
+
+		<h5>No Account, One Device</h5>
+		<p>In the pursuit of natural and casual interactions, we elected to have an account-free, single-device application, obviating the need to exchange contact information prior to beginning an exchange (a downside of texting or e-mails, conversationally). Because the conversation participants are still face-to-face, the nuances of nonverbal conversation (body language and facial expressions) are not lost the way they would be if the users could walk away from each other. The one-device approach does have its own downsides; some users were unsure they would be comfortable handing someone their phone or being handed someone’s phone, and knowing when the phone should be returned. We’ve built in prompts to ameliorate this issue.</p>
+
+		<h5>Quick-Chat Icons</h5>
+		<p>The chat screen provides a set of quick-chat icons that allow users to input common messages very quickly. In one of our studies, users created something similar on a piece of paper. In particular, secondary users would often either use a particular symbol frequently, or would draw two symbols prominently (Yes and no, for example) and gesture towards the already-drawn ones in order to respond to questions. This saves users time when responding with common messages.</p>
+
+		<h5>Interaction Flow</h5>
+		<p>The flow of interactions and prompts was adjusted based on heuristic evaluations. Based on feedback, we removed several redundant symbols and changed the availability of the ‘settings’ menu so that it would only be used outside the scope of a conversation.</p>
+
+		<h5>Tutorial Removal</h5>
+		<p>We removed the tutorial for the app. This was based on the need to reduce startup time, allowing conversations to occur more naturally and spontaneously. Also, users mentioned that they tend to just skip the tutorial; as such, we instead decided to focus on making our interface intuitive and built around existing, known idioms.</p>
+
+		<h5>Mobile Human Factors</h5>
+		<p>In earlier phases, we also determined that the ideal layout of the chat screen needs to conform to the requirements of mobile-device users. Placement for buttons, and the “stickiness” of tools (e.g., remaining in check-placing mode vs. returning to text mode) needs to be set so as to allow users to easily engage with the device.</p>
+
+		<h5>Mobile Navigation</h5>
+		<p>We had further been concerned that using a mobile screen could cause an interaction to feel cramped, like writing on a piece of paper a bit too small. This led to us implementing pan functionality on an arbitrarily extensible canvas to mitigate the issues with these device and human factors.</p>
+
+
+		<h4>Design Shortcomings</h4>
+		<p>Although we tried our best to create a fully functioning app prototype over the course of the semester, there were some ideas that we encountered during the design process that we were not able to fully implement. Some of these we chose not to implement due to technical feasibility. Some we were not able to get enough user feedback on to make a proper decision decision. Some just didn’t rise to the top as a priority to implement.</p>
+		<p>We put a lot of technical work and debugging into creating the spatial elements of our prototype, as this was one of our main goals and something that separated our app from all the other chat apps currently on the market. Because this was such a large part of our design, we made sacrifices in other areas of our implementation. Some examples of our design shortcomings and sacrifices include:</p>
+
+		<ul>
+			<li><p>Personalization: An aspect of our app that was important was to integrate personalizable features so that our users could feel ownership over the app and curate their experience. There are many places in the app where we have created the space for personalization, such as user color choice and selection of the quick-chat icons. However, we didn’t have time to implement the technical backend necessary to make these user choices stick.</p></li>
+			<li><p>Lack of user feedback: We had a lot of difficulty locating users who fit into our primary user group. Due to this, not every decision we made had a strong foundation in user feedback. We wish that we had been able to have more time to find users and get their opinions about both our initial concept and our prototypes, but due to time constraints and the focus of the course as less user research and more design, we chose to move forward with what information we were able to gather from users in and outside of our primary user group.</p></li>
+			<li><p>Tap vs. Swipe: In some of our initial paper prototypes, we demonstrated using the quick-chat reply icons by “tapping” on them and “dragging” them into place. However, once we created the technical code prototype on Phonegap, this interaction was changed to tapping the quick-chat icon and then tapping the location where the user wanted to place it. This was a decision that was made on the basis of technical implementation only. We have discussed internally the differences users will experience between these two interactions, but we do not have any user testing or validation to support our decision.</p></li>
+		</ul>
+
+
+		<p>Overall, if we were to continue working on the project, we would make sure to test every feature and design decision in more depth so that we could create the most in depth, responsive, and user-centric experience possible.</p>
+
+		<h4>Team Effort</h4>
+		<p>Our team had philosophical objections to the notion of an effort chart - especially inasmuch as it involves quantifying often inherently-unquantifiable contributions (e.g., creativity; effort). Although we recognize that there is a time and place for team effort charts - for example, in situations where teaming difficulties might rear up down the line, or in cases when the teaching team would need to intervene - we collectively concluded that our team was pretty much fine with not assigning numerical roles and ratings.</p>
+		<p>As a team, we worked together on many of the aspects of the course (deliverables, writeups, etc). For other parts of the project, such as the development of an InVision and a Phonegap prototype, we opted to “divide and conquer” - splitting into subteams that ran parallel with one another to focus on a particular tool set. This dynamic of splitting and reconvening, while not wholly without flaws (demanding regular check-ins between subgroups), helped us stay productive and in-touch without stepping on one anothers’ toes.
+
+		<br><br><br><br>
+
+		<h3>Appendix:</h3>
+
+		<h4>Settings</h4>
+		<p>We created a settings screen in our InVision prototype but limited the interaction to just turning sound on and off and selecting user color. We decided that it was not worth integrating the settings screen into our technical code Phonegap prototype because it would have required us to create a backend to keep track of the choices that our users made. However, we were still able to get feedback on the InVision screens that we made. Here you can see the full settings screen that we made. The main user (owner of the phone) has the ability to edit the home screen text to match what they want to share with people. The tutorial option is a remnant of past design choices when we were planning on including a tutorial. This option would allow the main user to turn off the option of a tutorial. We saw this option being useful if the main user communicated mostly with people who were already familiar with the app and didn’t want to be asked or reminded how to use the app’s features.</p>
+		<p>The color scheme was thought of as a way to change the entire app color scheme, possibly from light to dark, or with a colorblind accessibility option. The user color was a way for the primary user to set their default color so that they didn’t have to reselect it every time they entered the app.</p>
+		<p>The quick-chat icons are the squares at the top of the app (currently Y, N, ?, !) that allow users to respond to something with the press of a button. If we had more time, we would have tested with users to determine what the most used icons were and set those as the defaults. We chose Y and N because when we were doing our initial user interviews, two of our users who were communicating on a piece of paper wrote Y and N and pointed to it during their written conversation. The idea was also brought up (thanks Marco!) for us to make the quick-chat icons appear only in a drop-down menu somewhere other than the main chat screen. Then, as users selected them, the app would keep the most recently used or most frequently used on the main chat screen. This is an interesting idea, but one that we have not had a chance to dig deeper into on this project.</p>
+
+<!--<settings.png and colors lime green.png in website elements folder>-->
+
+		<h4>Future Work</h4>
+		<p>This project has several promising avenues for future exploration.
+		<p>As discussed in our reflection on design shortcomings, engaging with users outside of our immediate community would undoubtedly yield valuable results--whether in guiding future interaction development, or in validating our previous decisions made with a user base which we were already familiar with.</p>
+		<p>In the same vein as this, we would also like to examine the roles of defaults and customizable options. With features like colors and our quick-chat icon selections, we often found ourselves declaring that we would simply leave the choice to the user, avoiding the need to figure out exactly which colors and options would be most useful out of the box. Although customizability is not without its merit, though, the defaults can and do color users’ perceptions of the interface from the beginning; just because options can be changed doesn’t mean that the first impression can be unpolished.</p>
+		<p>Another interesting avenue might be expanding the technical and physical scope of the app. We briefly looked into physical interpersonal cues - body language, handoff techniques, and signaling - as a way to improve the flow and ease of conversation; with more time, we would like to go in-depth into just how handoffs and “props” affect conversation startup.</p>
+		<p>The technical expansion could further incorporate novel hardware capabilities: factors like intelligently handling who is currently “talking” (by changing the color based on orientation, or when a phone’s accelerometer detected a handoff), or even potentially integrating haptic and audio feedback (e.g., non-visual confirmation of a selection). These expansions were ruled out by the demands and scale of this course: accelerometer reading, for example, was impractical to set up with Phonegap or InVision, and integrating it into a native application would be more technically involved than was reasonable for the closing stage of the course; that being said, future work could certainly examine these and other human interactions with the software.</p>
+
+      </div>
+    </div>
+
+</div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
